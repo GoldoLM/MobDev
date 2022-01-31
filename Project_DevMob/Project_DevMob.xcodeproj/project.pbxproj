@@ -14,6 +14,8 @@
 		F8835E5827A81E2B00EE2300 /* Project_DevMobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8835E5727A81E2B00EE2300 /* Project_DevMobTests.swift */; };
 		F8835E6227A81E2B00EE2300 /* Project_DevMobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8835E6127A81E2B00EE2300 /* Project_DevMobUITests.swift */; };
 		F8835E6427A81E2B00EE2300 /* Project_DevMobUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8835E6327A81E2B00EE2300 /* Project_DevMobUITestsLaunchTests.swift */; };
+		F8835E7127A83F1C00EE2300 /* API_Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8835E7027A83F1C00EE2300 /* API_Call.swift */; };
+		F8835E7327A8404D00EE2300 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8835E7227A8404D00EE2300 /* ApiError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F8835E5D27A81E2B00EE2300 /* Project_DevMobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_DevMobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8835E6127A81E2B00EE2300 /* Project_DevMobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_DevMobUITests.swift; sourceTree = "<group>"; };
 		F8835E6327A81E2B00EE2300 /* Project_DevMobUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_DevMobUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8835E7027A83F1C00EE2300 /* API_Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Call.swift; sourceTree = "<group>"; };
+		F8835E7227A8404D00EE2300 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		F8835E3A27A81E2900EE2300 = {
 			isa = PBXGroup;
 			children = (
+				F8835E7427A841D700EE2300 /* ApiRessources */,
 				F8835E4527A81E2900EE2300 /* Project_DevMob */,
 				F8835E5627A81E2B00EE2300 /* Project_DevMobTests */,
 				F8835E6027A81E2B00EE2300 /* Project_DevMobUITests */,
@@ -125,6 +130,15 @@
 				F8835E6327A81E2B00EE2300 /* Project_DevMobUITestsLaunchTests.swift */,
 			);
 			path = Project_DevMobUITests;
+			sourceTree = "<group>";
+		};
+		F8835E7427A841D700EE2300 /* ApiRessources */ = {
+			isa = PBXGroup;
+			children = (
+				F8835E7027A83F1C00EE2300 /* API_Call.swift */,
+				F8835E7227A8404D00EE2300 /* ApiError.swift */,
+			);
+			path = ApiRessources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8835E4927A81E2900EE2300 /* ContentView.swift in Sources */,
+				F8835E7327A8404D00EE2300 /* ApiError.swift in Sources */,
+				F8835E7127A83F1C00EE2300 /* API_Call.swift in Sources */,
 				F8835E4727A81E2900EE2300 /* Project_DevMobApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
